@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body .main {
+  height: 156.5vh;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "main-font-medium";
+  src: url("../Font/GothamMedium.ttf");
+}
+@font-face {
+  font-family: "main-font-thin";
+  src: url("../Font/GothamBook.ttf");
+}
+@font-face {
+  font-family: "main-font-light";
+  src: url("../Font/Gotham-Light.otf");
+}
+@font-face {
+  font-family: "main-font-bold";
+  src: url("../Font/GothamBold.ttf");
+}
+
+@import "./top";
+@import "./middle";
+@import "./bottom";
